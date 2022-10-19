@@ -3,7 +3,7 @@
  * main -prints string
  * Return: 0
  */
-string main(void)
+int main(void)
 {
 	printf("_putchar\n");
 	return (0);
