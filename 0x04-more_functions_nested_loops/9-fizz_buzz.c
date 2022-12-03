@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - FizzBuzz
+ * main - fizzbuzz
  * Return: 0
  */
 
