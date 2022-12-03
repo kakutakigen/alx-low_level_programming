@@ -4,7 +4,6 @@
  * print_numbers - prints numbers
  * @separator: pointer parameter
  * @n: parameter
- * Return: 0
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -21,6 +20,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 
-	printf('\n');
+	printf("\n");
 	va_end(valist);
 }
